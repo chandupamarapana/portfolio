@@ -28,20 +28,20 @@ const projects = [
     tech: ["Java", "Multithreading", "Concurrency", "OOP"],
     github: "https://github.com/chandupamarapana",
   },
-  {
-    title: "Shopping Manager Console",
-    description:
-      "A desktop shopping management application with a graphical user interface built using Java Swing, featuring product management and user cart functionality.",
-    tech: ["Java", "Swing", "OOP", "File I/O"],
-    github: "https://github.com/chandupamarapana",
-  },
-  {
-    title: "CricZone Website",
-    description:
-      "A cricket information and statistics website providing live scores, player stats, team rankings, and match schedules for cricket enthusiasts.",
-    tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    github: "https://github.com/chandupamarapana",
-  },
+  // {
+  //   title: "Shopping Manager Console",
+  //   description:
+  //     "A desktop shopping management application with a graphical user interface built using Java Swing, featuring product management and user cart functionality.",
+  //   tech: ["Java", "Swing", "OOP", "File I/O"],
+  //   github: "https://github.com/chandupamarapana",
+  // },
+  // {
+  //   title: "CricZone Website",
+  //   description:
+  //     "A cricket information and statistics website providing live scores, player stats, team rankings, and match schedules for cricket enthusiasts.",
+  //   tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+  //   github: "https://github.com/chandupamarapana",
+  // },
 ]
 
 export function ProjectsSection() {
