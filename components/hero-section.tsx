@@ -49,6 +49,7 @@ export function HeroSection() {
           </a>
           <a
             href="/cv.pdf"
+            download = "chandupa-marapana-cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
