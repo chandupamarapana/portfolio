@@ -70,7 +70,7 @@ export function ExperienceSection() {
           </ul>
 
           <div className="mt-6 flex flex-wrap gap-2">
-            {["Java", "Spring Framework", "React", "REST APIs", "Databases", "Full Stack", "Agile/Scrum", "Git"].map(
+            {["Java", "Spring Framework", "REST APIs", "Databases", "Full Stack", "Agile/Scrum", "Git"].map(
               (tag) => (
                 <span
                   key={tag}
