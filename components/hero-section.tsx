@@ -30,8 +30,7 @@ export function HeroSection() {
           </p>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground">
             Passionate about building complete end-to-end solutions across frontend and backend systems.
-            Currently honing my skills through hands-on experience with modern web technologies and
-            enterprise applications at Cambio Software Engineering.
+            Currently honing my skills through hands-on experience with modern web technologies.
           </p>
         </div>
 
