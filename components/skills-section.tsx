@@ -10,7 +10,7 @@ const skillGroups = [
   {
     icon: Server,
     title: "Backend",
-    skills: ["Java", "Spring Boot", "Spring MVC", "REST APIs", "Python", "Node.js"],
+    skills: ["Java", "Spring Boot", "Spring MVC", "REST APIs", "Apache Tomcat", "Python", "Node.js"],
   },
   {
     icon: Monitor,

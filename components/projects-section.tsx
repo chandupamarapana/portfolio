@@ -4,15 +4,22 @@ import React from "react"
 
 import { useInView } from "@/hooks/use-in-view"
 import { SectionHeading } from "@/components/section-heading"
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink, FileText, Github } from "lucide-react"
 
-const projects = [
+const projects: {
+  title: string
+  description: string
+  tech: string[]
+  github: string
+  thesis?: string
+}[] = [
   {
-    title: "Real-time Plywood Defect Detection",
+    title: "DefectIQ - Real-time Plywood Defect Detection",
     description:
-      "AI-powered system for detecting and reasoning about defects in plywood surfaces in real-time using computer vision and deep learning techniques.",
-    tech: ["Python", "Deep Learning", "Computer Vision", "TensorFlow"],
+      "Final year thesis. A real-time dual-view computer vision system that detects post-manufacturing plywood defects (bubbling, delamination, warping, surface imprints, missing face). YOLOv8-seg isolates the board, an EfficientNet-B2 + AlexNet ensemble classifies top and side views, and a knowledge base maps each defect to its manufacturing cause and a corrective recommendation. Achieved 96.3% Top-2 accuracy on a 619-image factory dataset I published on Kaggle.",
+    tech: ["Python", "PyTorch", "YOLOv8", "EfficientNet-B2", "Flask", "React"],
     github: "https://github.com/chandupamarapana",
+    thesis: "/defectiq-thesis.pdf",
   },
   {
     title: "GestureSway",
@@ -80,15 +87,29 @@ export function ProjectsSection() {
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
                   <ExternalLink className="h-4 w-4" />
                 </div>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground transition-colors hover:text-foreground"
-                  aria-label={`View ${project.title} on GitHub`}
-                >
-                  <Github className="h-5 w-5" />
-                </a>
+                <div className="flex items-center gap-3">
+                  {project.thesis && (
+                    <a
+                      href={project.thesis}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground transition-colors hover:text-foreground"
+                      aria-label={`Read the ${project.title} thesis`}
+                      title="Read thesis"
+                    >
+                      <FileText className="h-5 w-5" />
+                    </a>
+                  )}
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground transition-colors hover:text-foreground"
+                    aria-label={`View ${project.title} on GitHub`}
+                  >
+                    <Github className="h-5 w-5" />
+                  </a>
+                </div>
               </div>
 
               <h3 className="mb-2 text-lg font-semibold text-foreground group-hover:text-primary transition-colors">

@@ -9,8 +9,8 @@ const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const _jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jetbrains-mono' })
 
 export const metadata: Metadata = {
-  title: 'Chandupa Marapana | Software Engineering Undergraduate',
-  description: 'Portfolio of Chandupa Marapana - Software Engineering Undergraduate specializing in Java backend development and enterprise systems.',
+  title: 'Chandupa Marapana | Software Engineer',
+  description: 'Portfolio of Chandupa Marapana - Software Engineer specializing in Java backend development and enterprise systems.',
 }
 
 export const viewport: Viewport = {

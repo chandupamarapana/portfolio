@@ -26,7 +26,7 @@ export function AboutSection() {
       icon: Briefcase,
       title: "Industry Experience",
       description:
-        "Real-world experience as a Software Engineer Intern at Cambio Software Engineering, working on production healthcare systems.",
+        "Backend Java Developer at FortunaGlobal working on fintech systems, after a year as a Software Engineer Intern at Cambio Software Engineering on production healthcare systems.",
     },
   ]
 
@@ -78,7 +78,7 @@ export function AboutSection() {
           }`}
         >
           <p className="leading-relaxed text-muted-foreground">
-            {"I'm a Software Engineering undergraduate at the Informatics Institute of Technology (IIT), affiliated with the University of Westminster. I'm a full stack developer who enjoys building complete solutions—from responsive frontends to robust backend systems. I'm passionate about solving complex problems and creating applications that are user-friendly, maintainable, and scalable. Through my internship at Cambio Software Engineering, I've gained hands-on experience working on production enterprise healthcare systems in an Agile environment."}
+            {"I'm a Software Engineer and a graduate of the Informatics Institute of Technology (IIT), affiliated with the University of Westminster, where I earned a BEng (Hons) in Software Engineering with Second Class Honours (Upper Division). I'm currently a Backend Java Developer at FortunaGlobal, building backend features for financial systems. I'm a full stack developer who enjoys building complete solutions—from responsive frontends to robust backend systems. I'm passionate about solving complex problems and creating applications that are user-friendly, maintainable, and scalable. Through my internship at Cambio Software Engineering, I've gained hands-on experience working on production enterprise healthcare systems in an Agile environment."}
           </p>
         </div>
       </div>

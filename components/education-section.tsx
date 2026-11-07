@@ -57,6 +57,14 @@ export function EducationSection() {
               <p className="mt-0.5 text-sm text-muted-foreground">
                 Affiliated with the University of Westminster, UK
               </p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                <span className="rounded-md bg-primary/10 px-3 py-1 font-mono text-xs text-primary">
+                  Second Class Honours (Upper Division)
+                </span>
+                <span className="rounded-md bg-secondary px-3 py-1 font-mono text-xs text-muted-foreground">
+                  2022 - 2026
+                </span>
+              </div>
             </div>
           </div>
 

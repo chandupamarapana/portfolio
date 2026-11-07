@@ -26,11 +26,11 @@ export function HeroSection() {
             <span className="text-balance">Chandupa Marapana</span>
           </h1>
           <p className="mt-4 text-lg text-muted-foreground sm:text-xl">
-            Software Engineering Undergraduate | Full Stack Developer
+            Software Engineer | Backend Java Developer
           </p>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground">
+            Software Engineering graduate building backend systems for fintech at FortunaGlobal.
             Passionate about building complete end-to-end solutions across frontend and backend systems.
-            Currently honing my skills through hands-on experience with modern web technologies.
           </p>
         </div>
 

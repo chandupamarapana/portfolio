@@ -8,9 +8,9 @@ import { Rocket } from "lucide-react"
 
 const currentWork = [
   {
-    title: "University Final Year Project",
+    title: "Backend Development at FortunaGlobal",
     description:
-      "Working on a final year project involving real-time systems and applied machine learning techniques.",
+      "Building and maintaining backend features for financial systems with Java, Spring MVC, and MySQL, and learning fintech workflows like transaction processing and reconciliation.",
   },
   {
     title: "Expanding Full-Stack Skills",
